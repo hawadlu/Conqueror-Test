@@ -35,7 +35,7 @@ function Body() {
     }
 
     return (
-        <div className="min-h-screen p-8">
+        <div className="min-h-screen p-8 mb-48">
             <div className="flex-grow overflow-auto">
                 {accounts && products && accounts.map((account) => (
                     <UserCart
